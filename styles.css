@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y colores de texto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1b1b1;
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 253);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dentro de las secciones */
+h2 {
+    color: #4CAF50;
+}
+
+/* Estilo para la lista de habilidades */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Formato de los botones */
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #43f752;
+}
+
+/* Estilos del formulario */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #06e619;
+    border-radius: 5px;
+}
+
+/* Enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #404140;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

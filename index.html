@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Carlos Andres Loaiza Escobar - Desarrollador Web</h1>
+    </header>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Hola, soy Carlos Andres Loaiza Escobar, un desarrollador web apasionado por crear experiencias interactivas y accesibles. Con experiencia en HTML, CSS, JavaScript y C++, siempre busco mejorar mis habilidades y estar al tanto de las últimas tendencias tecnológicas.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>mis hoobies</h2>
+        <ul>
+            <li>montar bicicleta</li>
+            <li>Caminar</li>
+            <li>escuchar musica</li>
+            <li>pasar tiempo con amigos</li>
+        </ul>
+    </section>
+
+    <section id="horario">
+        <h2>Mi Horario Semanal</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 - 9:00</td>
+                    <td>Matemáticas</td>
+                    <td>Física</td>
+                    <td>Química</td>
+                    <td>Biología</td>
+                    <td>Historia</td>
+                </tr>
+                <tr>
+                    <td>9:00 - 10:00</td>
+                    <td>Lengua</td>
+                    <td>Matemáticas</td>
+                    <td>Física</td>
+                    <td>Inglés</td>
+                    <td>Geografía</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Historia</td>
+                    <td>Lengua</td>
+                    <td>Inglés</td>
+                    <td>Química</td>
+                    <td>Biología</td>
+                </tr>
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td>Deportes</td>
+                    <td>Historia</td>
+                    <td>Matemáticas</td>
+                    <td>Lengua</td>
+                    <td>Física</td>
+                </tr>
+                <tr>
+                    <td>12:00 - 1:00</td>
+                    <td>Inglés</td>
+                    <td>Deportes</td>
+                    <td>Lengua</td>
+                    <td>Geografía</td>
+                    <td>Química</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensajeConfirmacion"></p>
+    </section>
+
+    <button id="bienvenidaButton">Mostrar Bienvenida</button>
+
+    <footer>
+        <p>Contacta conmigo: <a href="https://workspace.google.com/intl/es/gmail/" target="_blank" >loaizacarlosandres918@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
